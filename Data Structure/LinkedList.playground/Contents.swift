@@ -74,6 +74,53 @@ public struct JoonsLinkedList<T> {
         node.nextNode = JoonsNode(value: value, nextNode: node.nextNode)
         return node.nextNode!
     }
+    
+    //MARK: - Remove Values
+    @discardableResult
+    public mutating func pop() -> T? {
+        defer {
+            //2
+            head = head?.nextNode
+            if isEmpty {
+                tail = nil
+            }
+        }
+        //1
+        return head?.value
+    }
+    
+    @discardableResult
+    public mutating func removeLast() -> T? {
+        guard let head = head else {
+            return nil
+        }
+        guard head.nextNode != nil else {
+            return pop()
+        }
+        
+        var pre = head
+        var current = head
+        
+        //제일 마지막 노드를 찾아가는 과정
+        while let next = current.nextNode {
+            pre = current
+            current = next
+        }
+        pre.nextNode = nil
+        tail = pre
+        return current.value
+    }
+    
+    @discardableResult
+    public mutating func remove(after node: JoonsNode<T>) -> T? {
+        defer {
+            if node.nextNode === tail {
+                tail = node
+            }
+            node.nextNode = node.nextNode?.nextNode
+        }
+        return node.nextNode?.value
+    }
 }
 
 extension JoonsLinkedList: CustomStringConvertible {
@@ -87,12 +134,11 @@ extension JoonsLinkedList: CustomStringConvertible {
 
 var list = JoonsLinkedList<Int>()
 
-list.append(1)
-list.append(2)
-
-let insertPos = list.node(at: 0)!
-list.insert(3, after: insertPos)
-
-
+list.push(3)
+list.push(2)
+list.push(1)
 print(list)
 
+let removeNode = list.node(at: 0)!
+list.remove(after: removeNode)
+print(list)
