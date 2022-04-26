@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B429197427E1B7D900237664 /* 11729.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429197327E1B7D900237664 /* 11729.swift */; };
+		B439C355280E6B5B00692ACA /* 1047.swift in Sources */ = {isa = PBXBuildFile; fileRef = B439C354280E6B5B00692ACA /* 1047.swift */; };
 		B43B7E4227E8CFD600263F1E /* 2217.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43B7E4127E8CFD600263F1E /* 2217.swift */; };
 		B44FE89327DF91E30052A57D /* 1541.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44FE89227DF91E30052A57D /* 1541.swift */; };
 		B462AB9527F837FD00665EDA /* 16953.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462AB9427F837FD00665EDA /* 16953.swift */; };
@@ -22,6 +23,7 @@
 		B490FCAC27FEA08C00294FC5 /* 1339.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490FCAB27FEA08C00294FC5 /* 1339.swift */; };
 		B499F04927E22EBD00D4D161 /* 1991.swift in Sources */ = {isa = PBXBuildFile; fileRef = B499F04827E22EBD00D4D161 /* 1991.swift */; };
 		B499F04C27E377D500D4D161 /* 1946.swift in Sources */ = {isa = PBXBuildFile; fileRef = B499F04B27E377D500D4D161 /* 1946.swift */; };
+		B4B7E3ED2818529F008D1282 /* 15650.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7E3EC2818529F008D1282 /* 15650.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		B429197327E1B7D900237664 /* 11729.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11729.swift; sourceTree = "<group>"; };
+		B439C354280E6B5B00692ACA /* 1047.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1047.swift; sourceTree = "<group>"; };
 		B43B7E4127E8CFD600263F1E /* 2217.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2217.swift; sourceTree = "<group>"; };
 		B44FE89227DF91E30052A57D /* 1541.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1541.swift; sourceTree = "<group>"; };
 		B462AB9427F837FD00665EDA /* 16953.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16953.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		B490FCAB27FEA08C00294FC5 /* 1339.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1339.swift; sourceTree = "<group>"; };
 		B499F04827E22EBD00D4D161 /* 1991.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1991.swift; sourceTree = "<group>"; };
 		B499F04B27E377D500D4D161 /* 1946.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1946.swift; sourceTree = "<group>"; };
+		B4B7E3EC2818529F008D1282 /* 15650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15650.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,14 @@
 			);
 			name = "11729_하노이 탑 이동 순서";
 			path = "11729_하노이 탑 이동 순서 ";
+			sourceTree = "<group>";
+		};
+		B439C353280E6B4F00692ACA /* 1047_Z */ = {
+			isa = PBXGroup;
+			children = (
+				B439C354280E6B5B00692ACA /* 1047.swift */,
+			);
+			path = 1047_Z;
 			sourceTree = "<group>";
 		};
 		B43B7E4027E8CFCC00263F1E /* 2217_로프 */ = {
@@ -156,6 +168,8 @@
 		B477F51B27DF0C63005DE82B /* BOJSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				B4B7E3EB2818528D008D1282 /* 15650_N과M(2) */,
+				B439C353280E6B4F00692ACA /* 1047_Z */,
 				B490FCAA27FEA06F00294FC5 /* 1339_단어수학 */,
 				B462AB9927F8AE0C00665EDA /* DataStructure */,
 				B462AB9627F8827F00665EDA /* 1715_카드 정렬하기 */,
@@ -219,6 +233,15 @@
 			path = "1946_신입 사원";
 			sourceTree = "<group>";
 		};
+		B4B7E3EB2818528D008D1282 /* 15650_N과M(2) */ = {
+			isa = PBXGroup;
+			children = (
+				B4B7E3EC2818529F008D1282 /* 15650.swift */,
+			);
+			name = "15650_N과M(2)";
+			path = "15650_N과M(2)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -278,9 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44FE89327DF91E30052A57D /* 1541.swift in Sources */,
+				B439C355280E6B5B00692ACA /* 1047.swift in Sources */,
 				B462AB9B27F8AE1500665EDA /* Heap.swift in Sources */,
 				B43B7E4227E8CFD600263F1E /* 2217.swift in Sources */,
 				B490FCAC27FEA08C00294FC5 /* 1339.swift in Sources */,
+				B4B7E3ED2818529F008D1282 /* 15650.swift in Sources */,
 				B462AB9527F837FD00665EDA /* 16953.swift in Sources */,
 				B499F04927E22EBD00D4D161 /* 1991.swift in Sources */,
 				B462AB9D27F9615400665EDA /* PriorityQueue.swift in Sources */,
