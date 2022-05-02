@@ -1,5 +1,5 @@
 import Foundation
 
-let solution = Solution15650()
+let solution = Solution1254()
 
 solution.solve()
