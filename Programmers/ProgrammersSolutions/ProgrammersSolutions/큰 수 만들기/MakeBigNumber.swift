@@ -14,9 +14,17 @@ final class MakeBigNumber {
     
     var largestNumberPosition = -1
     
+    if numberArray.count - k == 1 { return String(numberArray.max() ?? 0) }
+    
     for i in 0 ..< numberArray.count - k {
       var largestNumber = -1
       for j in largestNumberPosition + 1 ... k + i {
+        if numberArray[j] == 9 {
+          largestNumberPosition = j
+          largestNumber = numberArray[j]
+          break
+        }
+        
         if largestNumber < numberArray[j] {
           largestNumberPosition = j
           largestNumber = numberArray[j]
