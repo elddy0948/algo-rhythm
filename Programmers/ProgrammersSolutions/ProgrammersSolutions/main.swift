@@ -1,5 +1,5 @@
 import Foundation
 
-let problem = Joystick()
+let problem = MakeBigNumber()
 
-print(problem.solution("BBBAAAAABAAAAAAAAAAA"))
+print(problem.solution("1924", 2))

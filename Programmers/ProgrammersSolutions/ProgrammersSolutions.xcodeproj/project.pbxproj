@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B4C4C66928389DB100F641A4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4C66828389DB100F641A4 /* main.swift */; };
 		B4C4C67128389E0400F641A4 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4C67028389E0400F641A4 /* Joystick.swift */; };
+		B4F3FEB1283B4BED0070116C /* MakeBigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3FEB0283B4BED0070116C /* MakeBigNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		B4C4C66528389DB100F641A4 /* ProgrammersSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProgrammersSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C4C66828389DB100F641A4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B4C4C67028389E0400F641A4 /* Joystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+		B4F3FEB0283B4BED0070116C /* MakeBigNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeBigNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		B4C4C66728389DB100F641A4 /* ProgrammersSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				B4F3FEAF283B4BC50070116C /* 큰 수 만들기 */,
 				B4C4C66F28389DC300F641A4 /* 조이스틱 */,
 				B4C4C66828389DB100F641A4 /* main.swift */,
 			);
@@ -72,6 +75,15 @@
 			);
 			name = "조이스틱";
 			path = "조이슽";
+			sourceTree = "<group>";
+		};
+		B4F3FEAF283B4BC50070116C /* 큰 수 만들기 */ = {
+			isa = PBXGroup;
+			children = (
+				B4F3FEB0283B4BED0070116C /* MakeBigNumber.swift */,
+			);
+			name = "큰 수 만들기";
+			path = "큰 수 만들기";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4C4C66928389DB100F641A4 /* main.swift in Sources */,
+				B4F3FEB1283B4BED0070116C /* MakeBigNumber.swift in Sources */,
 				B4C4C67128389E0400F641A4 /* Joystick.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
