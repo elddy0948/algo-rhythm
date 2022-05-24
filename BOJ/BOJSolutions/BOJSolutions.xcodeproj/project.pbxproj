@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4042521283CA64C0064A0A5 /* 1149.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4042520283CA64C0064A0A5 /* 1149.swift */; };
 		B429197427E1B7D900237664 /* 11729.swift in Sources */ = {isa = PBXBuildFile; fileRef = B429197327E1B7D900237664 /* 11729.swift */; };
 		B439C355280E6B5B00692ACA /* 1047.swift in Sources */ = {isa = PBXBuildFile; fileRef = B439C354280E6B5B00692ACA /* 1047.swift */; };
 		B43B7E4227E8CFD600263F1E /* 2217.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43B7E4127E8CFD600263F1E /* 2217.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B4042520283CA64C0064A0A5 /* 1149.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1149.swift; sourceTree = "<group>"; };
 		B429197327E1B7D900237664 /* 11729.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11729.swift; sourceTree = "<group>"; };
 		B439C354280E6B5B00692ACA /* 1047.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1047.swift; sourceTree = "<group>"; };
 		B43B7E4127E8CFD600263F1E /* 2217.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2217.swift; sourceTree = "<group>"; };
@@ -78,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B404251F283CA6420064A0A5 /* 1149_RGB거리 */ = {
+			isa = PBXGroup;
+			children = (
+				B4042520283CA64C0064A0A5 /* 1149.swift */,
+			);
+			name = "1149_RGB거리";
+			path = "1149_RGB거리";
+			sourceTree = "<group>";
+		};
 		B429197227E1B7CD00237664 /* 11729_하노이 탑 이동 순서 */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +196,7 @@
 		B477F51B27DF0C63005DE82B /* BOJSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				B404251F283CA6420064A0A5 /* 1149_RGB거리 */,
 				B4F3FEB2283BB8080070116C /* 1463_1로 만들기 */,
 				B494AF33282A2A5600BF8988 /* 14888_연산자 끼워넣기 */,
 				B4D7589C2826EE5300699265 /* 11000_강의실 배정 */,
@@ -352,6 +364,7 @@
 				B439C355280E6B5B00692ACA /* 1047.swift in Sources */,
 				B462AB9B27F8AE1500665EDA /* Heap.swift in Sources */,
 				B43B7E4227E8CFD600263F1E /* 2217.swift in Sources */,
+				B4042521283CA64C0064A0A5 /* 1149.swift in Sources */,
 				B490FCAC27FEA08C00294FC5 /* 1339.swift in Sources */,
 				B4B7E3ED2818529F008D1282 /* 15650.swift in Sources */,
 				B462AB9527F837FD00665EDA /* 16953.swift in Sources */,
