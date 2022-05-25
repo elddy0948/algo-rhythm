@@ -1,5 +1,5 @@
 import Foundation
 
-let problem = ChangeWord()
+let problem = MatrixMultiplication()
 
-print(problem.solution("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"]  ))
+print(problem.solution([[1, 2], [2, 1], [3, 4]], [[1, 2, 3], [3, 4, 5]]))
