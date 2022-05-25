@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4042528283D0AE00064A0A5 /* ChangeWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4042527283D0AE00064A0A5 /* ChangeWord.swift */; };
 		B4C4C66928389DB100F641A4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4C66828389DB100F641A4 /* main.swift */; };
 		B4C4C67128389E0400F641A4 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4C67028389E0400F641A4 /* Joystick.swift */; };
 		B4F3FEB1283B4BED0070116C /* MakeBigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3FEB0283B4BED0070116C /* MakeBigNumber.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B4042527283D0AE00064A0A5 /* ChangeWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeWord.swift; sourceTree = "<group>"; };
 		B4C4C66528389DB100F641A4 /* ProgrammersSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProgrammersSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C4C66828389DB100F641A4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B4C4C67028389E0400F641A4 /* Joystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
@@ -44,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4042525283D0ACF0064A0A5 /* 단어 변환 */ = {
+			isa = PBXGroup;
+			children = (
+				B4042527283D0AE00064A0A5 /* ChangeWord.swift */,
+			);
+			name = "단어 변환";
+			path = "단어 변환";
+			sourceTree = "<group>";
+		};
 		B4C4C65C28389DB100F641A4 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +74,7 @@
 		B4C4C66728389DB100F641A4 /* ProgrammersSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				B4042525283D0ACF0064A0A5 /* 단어 변환 */,
 				B4F3FEB5283BC24E0070116C /* 섬 연결하기 */,
 				B4F3FEAF283B4BC50070116C /* 큰 수 만들기 */,
 				B4C4C66F28389DC300F641A4 /* 조이스틱 */,
@@ -160,6 +172,7 @@
 				B4F3FEB1283B4BED0070116C /* MakeBigNumber.swift in Sources */,
 				B4F3FEB7283BC2620070116C /* Connect islands.swift in Sources */,
 				B4C4C67128389E0400F641A4 /* Joystick.swift in Sources */,
+				B4042528283D0AE00064A0A5 /* ChangeWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
