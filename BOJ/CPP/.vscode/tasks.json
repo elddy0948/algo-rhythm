@@ -1,11 +1,12 @@
 {
     "tasks": [
         {
-            "type": "cppbuild",
+            "type": "shell",
             "label": "C/C++: clang++ 활성 파일 빌드",
             "command": "/usr/bin/clang++",
             "args": [
-                "-fdiagnostics-color=always",
+                "-std=c++17",
+                "-stdlib=libc++",
                 "-g",
                 "${file}",
                 "-o",
