@@ -1,5 +1,19 @@
 import Foundation
 
-let problem = MatrixMultiplication()
+let problem = StringCompression()
 
-print(problem.solution([[1, 2], [2, 1], [3, 4]], [[1, 2, 3], [3, 4, 5]]))
+print(problem.solution("abcabcabcabcdededededede"))
+
+
+//func substring(string: String, range: Range<Int>) -> String {
+//  let startIndex = string.index(string.startIndex, offsetBy: range.lowerBound)
+//  let endIndex = string.index(string.startIndex, offsetBy: range.upperBound)
+//  let range = startIndex ..< endIndex
+//  return String(string[range])
+//}
+
+//print(substring(string: "abcd", range: 0 ..< 1))
+//
+//for i in stride(from: 0, to: 5, by: 1) {
+//  print(i)
+//}
