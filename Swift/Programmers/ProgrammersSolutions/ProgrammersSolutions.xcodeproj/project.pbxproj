@@ -10,6 +10,7 @@
 		B4042528283D0AE00064A0A5 /* ChangeWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4042527283D0AE00064A0A5 /* ChangeWord.swift */; };
 		B404252B283DF47C0064A0A5 /* MatrixMultiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B404252A283DF47C0064A0A5 /* MatrixMultiplication.swift */; };
 		B45CCBB4288FBFA8008721D0 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45CCBB3288FBFA8008721D0 /* StringCompression.swift */; };
+		B4A401F22898EDAC004BF22C /* PairOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A401F12898EDAC004BF22C /* PairOff.swift */; };
 		B4C4C66928389DB100F641A4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4C66828389DB100F641A4 /* main.swift */; };
 		B4C4C67128389E0400F641A4 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4C67028389E0400F641A4 /* Joystick.swift */; };
 		B4F3FEB1283B4BED0070116C /* MakeBigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3FEB0283B4BED0070116C /* MakeBigNumber.swift */; };
@@ -32,6 +33,7 @@
 		B4042527283D0AE00064A0A5 /* ChangeWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeWord.swift; sourceTree = "<group>"; };
 		B404252A283DF47C0064A0A5 /* MatrixMultiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixMultiplication.swift; sourceTree = "<group>"; };
 		B45CCBB3288FBFA8008721D0 /* StringCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCompression.swift; sourceTree = "<group>"; };
+		B4A401F12898EDAC004BF22C /* PairOff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairOff.swift; sourceTree = "<group>"; };
 		B4C4C66528389DB100F641A4 /* ProgrammersSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProgrammersSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C4C66828389DB100F641A4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B4C4C67028389E0400F641A4 /* Joystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
@@ -77,6 +79,15 @@
 			path = "문자열 압축";
 			sourceTree = "<group>";
 		};
+		B4A401F02898ED53004BF22C /* 짝지어 제거하기 */ = {
+			isa = PBXGroup;
+			children = (
+				B4A401F12898EDAC004BF22C /* PairOff.swift */,
+			);
+			name = "짝지어 제거하기";
+			path = "짝지어 제거하기";
+			sourceTree = "<group>";
+		};
 		B4C4C65C28389DB100F641A4 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +107,7 @@
 		B4C4C66728389DB100F641A4 /* ProgrammersSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				B4A401F02898ED53004BF22C /* 짝지어 제거하기 */,
 				B45CCBB2288FBF7E008721D0 /* 문자열 압축 */,
 				B4042529283DF4640064A0A5 /* 행렬의 곱셈 */,
 				B4042525283D0ACF0064A0A5 /* 단어 변환 */,
@@ -199,6 +211,7 @@
 				B404252B283DF47C0064A0A5 /* MatrixMultiplication.swift in Sources */,
 				B4042528283D0AE00064A0A5 /* ChangeWord.swift in Sources */,
 				B45CCBB4288FBFA8008721D0 /* StringCompression.swift in Sources */,
+				B4A401F22898EDAC004BF22C /* PairOff.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
