@@ -3,6 +3,10 @@
         "string": "cpp",
         "vector": "cpp",
         "iostream": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "__hash_table": "cpp",
+        "unordered_map": "cpp",
+        "iosfwd": "cpp",
+        "__locale": "cpp"
     }
 }

@@ -47,5 +47,8 @@ int solution(string s)
 int main(void)
 {
     int answer = solution("abcabcabcabcdededededede");
-    std::cout << answer;
+    // std::cout << answer;
+    string s = "abcasdfas";
+    std::cout << "Hello";
+    std::cout << s.substr(2, 0);
 }
