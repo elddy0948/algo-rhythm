@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Solutions">
+      <UniqueIdentifier>{282879c0-52a0-473a-b436-6f469417b78f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2458.cpp">
+      <Filter>Solutions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
