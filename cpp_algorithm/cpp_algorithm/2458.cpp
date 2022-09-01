@@ -40,7 +40,7 @@ void Floyd(std::vector<std::vector<int>>& graph, int numberOfStudents)
 	}
 }
 
-int main(void)
+int Solution2458(void)
 {
 	int numberOfStudents;
 	int numberOfCompares;
