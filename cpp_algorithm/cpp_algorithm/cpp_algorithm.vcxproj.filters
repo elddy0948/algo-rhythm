@@ -4,6 +4,9 @@
     <Filter Include="Solutions">
       <UniqueIdentifier>{282879c0-52a0-473a-b436-6f469417b78f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Solutions\Implementations">
+      <UniqueIdentifier>{5ea335a4-bdfc-4959-90e4-fd82b9220fdf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="18352.cpp">
@@ -11,6 +14,9 @@
     </ClCompile>
     <ClCompile Include="1916.cpp">
       <Filter>Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="union_find.cpp">
+      <Filter>Solutions\Implementations</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
