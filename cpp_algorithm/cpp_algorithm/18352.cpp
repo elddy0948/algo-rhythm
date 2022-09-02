@@ -49,7 +49,7 @@ std::vector<int> Dijkstra(
 	return distanceList;
 }
 
-int main(void)
+int Solution18352(void)
 {
 	int numberOfCities;
 	int numberOfRoads;
