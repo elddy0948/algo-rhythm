@@ -9,8 +9,8 @@ int main(void)
 	std::cin >> n >> m;
 	std::string pocketmons[100001];
 
-	std::cin.tie(0);
-	std::ios_base::sync_with_stdio(0);
+	std::cin.tie(0);										// 안쓰면
+	std::ios_base::sync_with_stdio(0);	// 시간초과
 
 	for (int i = 1; i <= n; i++)
 	{
@@ -32,7 +32,7 @@ int main(void)
 		else
 		{
 			auto index = dictionary.find(inp);
-			std::cout << index->second << '\n';
+			std::cout << index->second << '\n'; // endl 쓰면 시간초과
 		}
 	}
 
