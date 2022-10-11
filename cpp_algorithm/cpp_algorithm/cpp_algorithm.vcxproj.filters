@@ -48,5 +48,8 @@
     <ClCompile Include="1389.cpp">
       <Filter>Solutions</Filter>
     </ClCompile>
+    <ClCompile Include="2565.cpp">
+      <Filter>Solutions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
