@@ -2,6 +2,7 @@
 #include <array>
 
 // Geeks for geeks
+// The Knight's tour (Back Tracking) O(n^2)
 
 const int BoardSize = 8;
 
