@@ -1,88 +1,94 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Solutions">
+    <Filter Include="Programmers">
+      <UniqueIdentifier>{36373111-8ce5-45ce-85d1-254e48ce711e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOJ">
       <UniqueIdentifier>{282879c0-52a0-473a-b436-6f469417b78f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="18352.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="1916.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="1197.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="1976.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="1003.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="1927.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="1620.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="11727.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="11053.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="1912.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="2293.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="10844.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="16928.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="1389.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="2565.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="12100.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="11052.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="10819.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="2529.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="2669.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="2669_2.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="1182.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="15683.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="100974.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="14889.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="10971.cpp">
-      <Filter>Solutions</Filter>
+      <Filter>BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="야간전술보행.cpp">
+      <Filter>Programmers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
