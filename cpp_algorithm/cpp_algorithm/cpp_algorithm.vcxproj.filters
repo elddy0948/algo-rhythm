@@ -7,6 +7,9 @@
     <Filter Include="BOJ">
       <UniqueIdentifier>{282879c0-52a0-473a-b436-6f469417b78f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LeetCode">
+      <UniqueIdentifier>{bb947387-b90b-4e48-858c-227fd3a820fa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="18352.cpp">
@@ -89,6 +92,9 @@
     </ClCompile>
     <ClCompile Include="야간전술보행.cpp">
       <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="letter_combination_of_a_phone_number.cpp">
+      <Filter>LeetCode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
