@@ -96,5 +96,8 @@
     <ClCompile Include="letter_combination_of_a_phone_number.cpp">
       <Filter>LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="generate_parentheses.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
