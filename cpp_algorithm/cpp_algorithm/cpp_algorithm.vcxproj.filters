@@ -102,5 +102,8 @@
     <ClCompile Include="find_words_that_can_be_formed_by_characters.cpp">
       <Filter>LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="unique_number_of_occurrences.cpp">
+      <Filter>LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
