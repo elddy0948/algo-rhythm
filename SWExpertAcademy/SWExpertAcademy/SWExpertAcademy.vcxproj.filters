@@ -21,5 +21,14 @@
     <ClCompile Include="2056.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2050.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2047.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2043.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
