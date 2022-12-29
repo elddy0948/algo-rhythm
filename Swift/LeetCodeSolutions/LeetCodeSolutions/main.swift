@@ -1,8 +1,14 @@
 import Foundation
 
 
-let sol = Solution39()
+let sol = Solution1219()
 
-print(sol.combinationSum([2, 3, 6, 7], 7))
+var inp = [[1,0,7],
+           [2,0,6],
+           [3,4,5],
+           [0,3,0],
+           [9,0,20]]
+
+print(sol.getMaximumGold(&inp))
 
 
