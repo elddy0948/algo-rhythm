@@ -9,6 +9,6 @@ var inp = [[1,0,7],
            [0,3,0],
            [9,0,20]]
 
-print(sol.getMaximumGold(&inp))
+print(sol.getMaximumGold(inp))
 
 
