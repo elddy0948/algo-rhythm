@@ -14,6 +14,7 @@
 		B444E97C2966AA3B00E833E9 /* 77.swift in Sources */ = {isa = PBXBuildFile; fileRef = B444E97B2966AA3B00E833E9 /* 77.swift */; };
 		B4A3D530295D5109003E900F /* 1219.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A3D52F295D5109003E900F /* 1219.swift */; };
 		B4DC7A352938E01400EB8F4A /* 51.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DC7A342938E01400EB8F4A /* 51.swift */; };
+		B4E3A3272968696D001B842F /* 46.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E3A3262968696D001B842F /* 46.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		B444E97B2966AA3B00E833E9 /* 77.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 77.swift; sourceTree = "<group>"; };
 		B4A3D52F295D5109003E900F /* 1219.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1219.swift; sourceTree = "<group>"; };
 		B4DC7A342938E01400EB8F4A /* 51.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 51.swift; sourceTree = "<group>"; };
+		B4E3A3262968696D001B842F /* 46.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 46.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,13 +71,14 @@
 		B417790229306685008A00E8 /* LeetCodeSolutions */ = {
 			isa = PBXGroup;
 			children = (
-				B417790329306685008A00E8 /* main.swift */,
 				B417790A293066A7008A00E8 /* 39.swift */,
+				B4E3A3262968696D001B842F /* 46.swift */,
 				B4DC7A342938E01400EB8F4A /* 51.swift */,
-				B4A3D52F295D5109003E900F /* 1219.swift */,
+				B444E97B2966AA3B00E833E9 /* 77.swift */,
 				B41D2B962963ADFD0049B5BD /* 78.swift */,
 				B41D2B982963B3120049B5BD /* 90.swift */,
-				B444E97B2966AA3B00E833E9 /* 77.swift */,
+				B4A3D52F295D5109003E900F /* 1219.swift */,
+				B417790329306685008A00E8 /* main.swift */,
 			);
 			path = LeetCodeSolutions;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				B417790B293066A7008A00E8 /* 39.swift in Sources */,
 				B41D2B992963B3120049B5BD /* 90.swift in Sources */,
 				B4A3D530295D5109003E900F /* 1219.swift in Sources */,
+				B4E3A3272968696D001B842F /* 46.swift in Sources */,
 				B41D2B972963ADFD0049B5BD /* 78.swift in Sources */,
 				B4DC7A352938E01400EB8F4A /* 51.swift in Sources */,
 			);
