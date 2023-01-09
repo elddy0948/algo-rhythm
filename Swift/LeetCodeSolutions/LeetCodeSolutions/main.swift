@@ -1,10 +1,10 @@
 import Foundation
 
 
-let sol = Solution46()
+let sol = Solution40()
 
-var inp = [4,4,4,1,4]
+var inp = [10,1,2,7,6,1,5]
 
-print(sol.permute([1, 2, 3]))
+print(sol.combinationSum2([10,1,2,7,6,1,5], 8))
 
 
