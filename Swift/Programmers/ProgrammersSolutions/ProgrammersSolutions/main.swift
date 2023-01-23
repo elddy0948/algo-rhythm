@@ -1,5 +1,5 @@
 import Foundation
 
-let problem = JadenCase()
-let answer = problem.solution("3people unFollowed me")
+let problem = Fatigue()
+let answer = problem.solution(80, [[80,20],[50,40],[30,10]])
 print(answer)

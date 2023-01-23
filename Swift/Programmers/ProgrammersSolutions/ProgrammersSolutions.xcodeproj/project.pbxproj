@@ -15,6 +15,7 @@
 		B4A401F22898EDAC004BF22C /* PairOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A401F12898EDAC004BF22C /* PairOff.swift */; };
 		B4C4C66928389DB100F641A4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4C66828389DB100F641A4 /* main.swift */; };
 		B4C4C67128389E0400F641A4 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4C67028389E0400F641A4 /* Joystick.swift */; };
+		B4EE8DB9297EDA03003575ED /* Fatigue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE8DB8297EDA03003575ED /* Fatigue.swift */; };
 		B4F3FEB1283B4BED0070116C /* MakeBigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3FEB0283B4BED0070116C /* MakeBigNumber.swift */; };
 		B4F3FEB7283BC2620070116C /* Connect islands.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3FEB6283BC2620070116C /* Connect islands.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		B4C4C66528389DB100F641A4 /* ProgrammersSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProgrammersSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C4C66828389DB100F641A4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B4C4C67028389E0400F641A4 /* Joystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+		B4EE8DB8297EDA03003575ED /* Fatigue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fatigue.swift; sourceTree = "<group>"; };
 		B4F3FEB0283B4BED0070116C /* MakeBigNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeBigNumber.swift; sourceTree = "<group>"; };
 		B4F3FEB6283BC2620070116C /* Connect islands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Connect islands.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +131,7 @@
 		B4C4C66728389DB100F641A4 /* ProgrammersSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				B4EE8DB7297ED9EA003575ED /* 피로도 */,
 				B45C8593297E8DFB00B5D97E /* JadenCase 문자열 만들기 */,
 				B425CAB7289D45E2002F2EFF /* 메뉴 리뉴얼 */,
 				B4A401F02898ED53004BF22C /* 짝지어 제거하기 */,
@@ -150,6 +153,15 @@
 			);
 			name = "조이스틱";
 			path = "조이슽";
+			sourceTree = "<group>";
+		};
+		B4EE8DB7297ED9EA003575ED /* 피로도 */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE8DB8297EDA03003575ED /* Fatigue.swift */,
+			);
+			name = "피로도";
+			path = "피로도";
 			sourceTree = "<group>";
 		};
 		B4F3FEAF283B4BC50070116C /* 큰 수 만들기 */ = {
@@ -236,6 +248,7 @@
 				B404252B283DF47C0064A0A5 /* MatrixMultiplication.swift in Sources */,
 				B4042528283D0AE00064A0A5 /* ChangeWord.swift in Sources */,
 				B45CCBB4288FBFA8008721D0 /* StringCompression.swift in Sources */,
+				B4EE8DB9297EDA03003575ED /* Fatigue.swift in Sources */,
 				B4A401F22898EDAC004BF22C /* PairOff.swift in Sources */,
 				B425CAB9289D45EC002F2EFF /* MenuRenewal.swift in Sources */,
 			);
