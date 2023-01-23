@@ -1,5 +1,5 @@
 import Foundation
 
-let problem = MenuRenewal()
-let answer = problem.solution(["ABCDE", "AB", "CD", "ADE", "XYZ", "XYZ", "ACD"], [2,3,5])
+let problem = JadenCase()
+let answer = problem.solution("3people unFollowed me")
 print(answer)
