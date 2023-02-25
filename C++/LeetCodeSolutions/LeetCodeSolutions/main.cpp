@@ -1,23 +1,23 @@
 #include <iostream>
-#include <string>
-#include <bitset>
+
+#include "Problems/1023.cpp"
 
 using namespace std;
 
-bool queryString(string s, int n) {
-  for (int i = n; i > n / 2; i--) {
-    const auto& iToBinary = bitset<32>(i).to_string();
-    
-    if (s.find(iToBinary.substr(iToBinary.find("1"))) == string::npos) { return false; }
-  }
-  
-  return true;
-}
 
 int main(int argc, const char * argv[]) {
-  bool ans = queryString("0110", 3);
+  Solution sol;
   
-  cout << ans << endl;
+  vector<string> inp = {
+    "FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"
+  };
+  
+  vector<bool> ans = sol.camelMatch(inp, "FB");
+  
+  
+  for (const auto result : ans) {
+    cout << result << endl;
+  }
   
   return 0;
 }
