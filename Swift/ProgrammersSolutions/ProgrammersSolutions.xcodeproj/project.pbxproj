@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B41DE14629D0721E00D38FC8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41DE14529D0721E00D38FC8 /* main.swift */; };
+		B437726F29D18DA300ED55F5 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B437726E29D18DA300ED55F5 /* Budget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		B41DE14C29D072DC00D38FC8 /* RemoveTheSmallestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveTheSmallestNumber.swift; sourceTree = "<group>"; };
 		B41DE14F29D07A2200D38FC8 /* GCDAndLCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDAndLCM.swift; sourceTree = "<group>"; };
 		B437726A29D17DDF00ED55F5 /* AdditionalOfMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalOfMatrix.swift; sourceTree = "<group>"; };
+		B437726C29D17EEC00ED55F5 /* XspaceNnumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XspaceNnumber.swift; sourceTree = "<group>"; };
+		B437726E29D18DA300ED55F5 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				B41DE14C29D072DC00D38FC8 /* RemoveTheSmallestNumber.swift */,
 				B41DE14F29D07A2200D38FC8 /* GCDAndLCM.swift */,
 				B437726A29D17DDF00ED55F5 /* AdditionalOfMatrix.swift */,
+				B437726C29D17EEC00ED55F5 /* XspaceNnumber.swift */,
+				B437726E29D18DA300ED55F5 /* Budget.swift */,
 			);
 			path = "Level-1";
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B437726F29D18DA300ED55F5 /* Budget.swift in Sources */,
 				B41DE14629D0721E00D38FC8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
