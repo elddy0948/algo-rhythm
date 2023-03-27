@@ -27,6 +27,7 @@
 		B41DE14529D0721E00D38FC8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B41DE14C29D072DC00D38FC8 /* RemoveTheSmallestNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveTheSmallestNumber.swift; sourceTree = "<group>"; };
 		B41DE14F29D07A2200D38FC8 /* GCDAndLCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDAndLCM.swift; sourceTree = "<group>"; };
+		B437726A29D17DDF00ED55F5 /* AdditionalOfMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalOfMatrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 			children = (
 				B41DE14C29D072DC00D38FC8 /* RemoveTheSmallestNumber.swift */,
 				B41DE14F29D07A2200D38FC8 /* GCDAndLCM.swift */,
+				B437726A29D17DDF00ED55F5 /* AdditionalOfMatrix.swift */,
 			);
 			path = "Level-1";
 			sourceTree = "<group>";
