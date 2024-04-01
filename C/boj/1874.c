@@ -61,9 +61,9 @@ int main(void)
 	unsigned char command[MAX_LENGTH] = {};
 
   scanf("%d", &n);
-  
+
 	struct Stack* stack = create_stack(n);
-	
+
 	for(i = 0; i < n; ++i)
 	{
 		scanf("%d", &target);
